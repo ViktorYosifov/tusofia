@@ -2,9 +2,9 @@
 class TreeNode:
     def __init__(self, value):
         self.value = value
-        #указател къв ляво поддърво
+        #указател към ляво поддърво
         self.left = None
-        #указател къв дясно поддърво
+        #указател към дясно поддърво
         self.right = None
 
 class BinaryTree:
