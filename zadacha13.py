@@ -73,7 +73,11 @@ class DynamicCircularLinkedList:
             print("List is empty")
         else:
             while current:
+<<<<<<< HEAD
                 print(current.data, end=",")
+=======
+                print(current.data, end=";")
+>>>>>>> 0a9a2fc22308d428ab3f8351a3b1bff3127527e4
                 current = current.next
                 if current == self.head:
                     break
